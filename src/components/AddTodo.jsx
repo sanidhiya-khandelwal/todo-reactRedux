@@ -11,7 +11,7 @@ function AddTodo() {
 
     const addTodoHandler = (e) => {
         e.preventDefault();
-        dispatch(AddTodo(input))
+        dispatch(addTodo(input))
         setInput('')
     }
     return (
