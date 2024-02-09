@@ -1,10 +1,14 @@
 import './App.css'
+import AddTodo from './components/AddTodo'
+
 
 function App() {
 
   return (
     <>
-      <h1 className='bg-slate-500'>React</h1>
+      <h1>Learn about redux toolkit</h1>
+      <AddTodo />
+      <Todo />
     </>
   )
 }
